@@ -1,5 +1,4 @@
-import subprocess, torch, os, traceback, sys, warnings, shutil, numpy as np
-from mega import Mega
+
 os.environ["no_proxy"] = "localhost, 127.0.0.1, ::1"
 import threading
 from time import sleep
